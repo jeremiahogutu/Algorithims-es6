@@ -4,9 +4,9 @@
 * ----------------------------------------------------------------------------------------
 */
 
-// The split() method is used to split a string into an array of substrings, and returns the new array.
-// The reverse() method reverses the order of the elements in an array.
-// The join() method joins the elements of an array into a string, and returns the string.
+// split() method is used to split a string into an array of substrings, and returns the new array.
+// reverse() method reverses the order of the elements in an array.
+// join() method joins the elements of an array into a string, and returns the string.
 
 const inputString = (str) => str.split('').reverse().join('');
 
