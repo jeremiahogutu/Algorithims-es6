@@ -8,10 +8,9 @@
 // reverse() method reverses the order of the elements in an array.
 // join() method joins the elements of an array into a string, and returns the string.
 
-const inputString = (str) => str.split('').reverse().join('');
-
 // Here we compare the original string to the reversed string to check if they match
-const checkPalindrome = (str) => str === inputString(str);
+
+const checkPalindrome = (str) => str.split('').reverse().join('') === str;
 
 // 'aabaa' should return true
 console.log(checkPalindrome('aabaa'));
